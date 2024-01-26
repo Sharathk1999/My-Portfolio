@@ -12,7 +12,8 @@ class SectionCustomContainer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: width,
-      
+      height: height,
+      padding: const EdgeInsets.all(25),
       decoration:  BoxDecoration(color: color),
       child: child,
     );
