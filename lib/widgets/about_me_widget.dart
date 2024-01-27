@@ -19,6 +19,7 @@ class AboutMeWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return SectionCustomContainer(
       width: size.width,
+      
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
